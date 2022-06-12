@@ -1,0 +1,57 @@
+.body {
+  max-width: 48rem;
+  margin: auto;
+}
+
+.nav-header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #5353eb;
+}
+
+.select-user-card {
+  background: url("https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+}
+
+.fetching-data {
+  background: url("https://cdn.pixabay.com/photo/2015/02/22/17/56/loading-645268__340.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+}
+
+.user-button {
+  cursor: pointer;
+  background-color: #5353eb;
+  color: #ffffff;
+  border: 1px solid #5353eb;
+}
+
+.user-button:active {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #5353eb;
+  color: #5353eb;
+}
+
+.user-button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #5353eb;
+  color: #5353eb;
+}
+
+.main {
+  border: solid 2px #5353eb;
+  border-radius: 10px;
+  text-align: center;
+
+  font-size: medium;
+}
+
+.textSize {
+  font-size: 20px;
+}
